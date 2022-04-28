@@ -1,0 +1,252 @@
+@charset "UTF-8";
+.section {
+  font-family: 'GmarketM','NBG','맑은고딕';
+}
+
+.sec1 {
+  background-color: #4089f7;
+}
+
+.sec1 .container {
+  background-image: url(/marketing/pubilsing/img/bgEffect.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.sec1 p {
+  font-size: 1.2rem;
+  line-height: 3;
+}
+
+.sec1 p span {
+  font-size: 1.8rem;
+  font-family: 'GmarketB';
+  color: white;
+}
+
+.topImg .cloudL1 {
+  top: 30%;
+  left: -50%;
+  width: 30%;
+}
+
+.topImg .cloudL2 {
+  top: 0;
+  left: -35%;
+  width: 35%;
+}
+
+.topImg .cloudR1 {
+  top: 0;
+  right: -35%;
+  width: 35%;
+}
+
+.topImg .cloudR2 {
+  top: 30%;
+  right: -50%;
+  width: 30%;
+}
+
+.topImg .parasol {
+  bottom: 0;
+  left: -50%;
+  width: 35%;
+  -webkit-transform: translate(23%, 54%);
+          transform: translate(23%, 54%);
+}
+
+.topImg .women {
+  bottom: -25%;
+  left: -50%;
+  width: 35%;
+  -webkit-transform: translate(68%, 16%);
+          transform: translate(68%, 16%);
+}
+
+.topImg .pool {
+  bottom: -25%;
+  right: -50%;
+  -webkit-transform: translate(12%, 27%);
+          transform: translate(12%, 27%);
+}
+
+.content {
+  padding-bottom: 25%;
+}
+
+/*sec2*/
+.sec2 {
+  background-color: #3ff0eb;
+  padding-bottom: 10%;
+}
+
+@media (max-width: 450px) {
+  .sec2 {
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width: 330px) {
+  .sec2 {
+    padding-bottom: 50%;
+  }
+}
+
+.couponImg {
+  background: url(/marketing/pubilsing/img/couponEvent.png);
+  height: 0;
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transform: translate(10px, -25%);
+          transform: translate(10px, -25%);
+}
+
+#couponSwiper {
+  top: 25%;
+  left: 15%;
+}
+
+#couponSwiper .coupon {
+  font-family: 'GmarketB';
+  font-size: 1.2rem;
+  color: black;
+}
+
+#couponSwiper h3 {
+  font-family: 'GmarketB';
+  font-size: 3rem;
+}
+
+#couponSwiper p {
+  color: gray;
+}
+
+#couponSwiper .btntigger {
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#couponSwiper .swiper-button-prev {
+  background-image: url(/marketing/pubilsing/img/prev.png);
+}
+
+#couponSwiper .swiper-button-prev::after {
+  display: none;
+}
+
+#couponSwiper .swiper-button-next {
+  background-image: url(/marketing/pubilsing/img/next.png);
+}
+
+#couponSwiper .swiper-button-next::after {
+  display: none;
+}
+
+.downBox {
+  bottom: 25%;
+  -webkit-transform: translate(-5%, 105%);
+          transform: translate(-5%, 105%);
+}
+
+.downBox a {
+  color: #333;
+  border: 3px solid;
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+@media (max-width: 767px) {
+  #couponSwiper {
+    top: 25%;
+    left: 15%;
+  }
+  #couponSwiper h3 {
+    font-family: 'GmarketB';
+    font-size: 2rem;
+  }
+  #couponSwiper p {
+    color: gray;
+    font-size: 0.5rem;
+  }
+  .downBox a {
+    font-size: 0.5rem;
+    padding: 0.1rem;
+  }
+}
+
+.couponBox {
+  top: 0;
+}
+
+.couponBox .mobile {
+  -webkit-transform: translate(-6%, 244%);
+          transform: translate(-6%, 244%);
+}
+
+.couponImg {
+  margin-bottom: -19.3%;
+}
+
+/*card*/
+.cardbg {
+  background-image: url(/marketing/pubilsing/img/cardbox.png);
+  background-size: 100%;
+  height: 0;
+  background-repeat: no-repeat;
+  padding-top: 50%;
+}
+
+.cardBox {
+  margin-top: -37%;
+}
+
+@media (max-width: 540px) {
+  .cardBox {
+    margin-top: -46%;
+  }
+}
+
+.cardCircle {
+  background-color: #ffe5fc;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+.cardCircle img {
+  height: 3rem;
+}
+
+.cardText {
+  font-size: 1.2rem;
+}
+
+.cardText .cardtext1 {
+  margin-bottom: 0;
+  font-family: "GmarketB";
+}
+
+.cardText .cardtext1 span {
+  color: #5578f7;
+}
+
+.cardText .cardtext2 {
+  font-family: "GmarketL";
+  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .cardText {
+    font-size: 0.8rem;
+  }
+  .cardText .cardtext2 {
+    font-size: 1.2rem;
+  }
+}
+
+.cardMain .cardeventText p {
+  line-height: 3rem;
+  color: #5578f7;
+}
